@@ -1,0 +1,20 @@
+server:
+  port: 9001
+
+spring:
+#  security:
+#    user:
+#      name: john
+#      password: 123
+#      roles: ADMIN
+  application:
+    name: EXPENSE-API
+  datasource:
+    url: jdbc:mysql://localhost:3306/expenseDb
+    username: root
+    password: Pragu@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
