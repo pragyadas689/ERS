@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 const ExpenseDelete = () =>{
     return (
-        <h1>Hello delete</h1>
+        <h1>Delete Page Working</h1>
     )
 }
 
