@@ -10,9 +10,9 @@ spring:
   application:
     name: EXPENSE-API
   datasource:
-    url: jdbc:mysql://localhost:3306/expenseDb
+    url: jdbc:mysql://localhost:3306/your_db
     username: root
-    password: Pragu@123
+    password: your_password
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
